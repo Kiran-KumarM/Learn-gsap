@@ -1,0 +1,30 @@
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+span{
+    font-size: 14px;
+}
+.red{
+    background-color: red;
+
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+ 
+}
+.d-flex{
+    display: flex;
+    gap: 1rem;
+}
+
+.circle:nth-child(odd){
+    background-color: purple;
+}
+.circle:nth-child(even){
+    background-color: gold;
+}
