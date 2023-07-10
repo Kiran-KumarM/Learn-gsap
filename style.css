@@ -28,3 +28,18 @@ span{
 .circle:nth-child(even){
     background-color: gold;
 }
+
+
+/* smooth */
+.smooth{
+ .box{
+    height: 300px;
+    width:30%
+}
+
+.circle{
+    height: 300px;
+    width:30%
+}
+
+}
