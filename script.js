@@ -8,6 +8,7 @@ gsap.to('#to',{
 gsap.from('#from',{
     duration:2,scale:0.2,backgroundColor:'blue',ease:'bounce'
 })
+gsap.fromTo('#fromto',{x:100,duration:2 },{x:400})
 
  //gsap.from('.sta .circle',{duration:1.5,x:200,ease:'easeIn'})
  gsap.from('.sta .circle',{duration:1.5,x:200,ease:'easeIn',stagger:0.5})
