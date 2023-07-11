@@ -1,45 +1,55 @@
-.box{
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
 }
 
-span{
-    font-size: 14px;
+span {
+  font-size: 14px;
 }
-.red{
-    background-color: red;
-
+.red {
+  background-color: red;
 }
-.circle{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
- 
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
-.d-flex{
-    display: flex;
-    gap: 1rem;
+.d-flex {
+  display: flex;
+  gap: 1rem;
 }
 
-.circle:nth-child(odd){
-    background-color: purple;
+.circle:nth-child(odd) {
+  background-color: purple;
 }
-.circle:nth-child(even){
-    background-color: gold;
+.circle:nth-child(even) {
+  background-color: gold;
 }
-
 
 /* smooth */
-.smooth{
- .box{
+.smooth {
+  .box {
     height: 300px;
-    width:30%
+    width: 30%;
+  }
+
+  .circle {
+    height: 300px;
+    width: 30%;
+  }
 }
 
-.circle{
-    height: 300px;
-    width:30%
-}
-
+#trigger_wrapper {
+  .boxs {
+    width: 90px;
+    height: 90px;
+    background-color: blueviolet;
+    margin: 400px 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .boxs.active{
+    background-color: red;
+  }
 }
