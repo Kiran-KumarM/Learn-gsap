@@ -51,3 +51,4 @@ tween = gsap.to(panels, {
 		end: () =>  "+=" + (panelsContainer.offsetWidth - innerWidth)
 	}
 });
+

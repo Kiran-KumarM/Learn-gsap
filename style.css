@@ -62,7 +62,7 @@ span {
 #example_trigger1 {
   .panel_wrappr {
     display: flex;
-    width:300vw;
+    width: 300vw;
   }
   .page1 {
     width: 100vw;
@@ -85,4 +85,56 @@ span {
     height: 100vh;
     background-color: yellow;
   }
+}
+
+#explorex {
+  height: 100vh;
+  width: 100vw;
+
+  /* .wrapper{
+  overflow:hidden;
+} */
+  .heading {
+    height: 20%;
+    font-size: 30px;
+    text-align: center;
+    padding: 4% 4%;
+  }
+
+  .row1,
+  .row2 {
+    display: flex;
+  }
+  .row1 {
+    transform: translateX(-20%);
+  }
+  .row2 {
+    transform: translatex(20%);
+  }
+  .images img {
+    max-width: 245px;
+    max-height: 245px;
+    background-repeat: no-repeat;
+  }
+  #expand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    max-height: 245px;
+  }
+  .blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    scale: 1;
+  }
+}
+.pagerel {
+  position: relative;
 }
